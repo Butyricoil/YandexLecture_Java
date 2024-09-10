@@ -1,45 +1,48 @@
-/*   Пререберем все позиции и для каждой позиции
-в строке еще раз переберем  все позици и в случае
-совпадения прибавим к счетчику едкницу. Найдём Максимальное
-значение счётчика
- */
-
 package FirstLecture;
-import javax.swing.*;
-import javax.swing.plaf.synth.SynthOptionPaneUI;
+import java.util.HashMap;
+import java.util.Map;
 
 public class First_Task {
 
+    // Объявляем переменные экземпляра
     private int S;
     private String ans;
     private int c;
 
+    // Метод для установки значения переменной S
     public void setValues(int S) {
-
         this.S = S;
     }
 
-    public void getValues () {
-
+    // Метод для вывода значений переменных S, ans и c
+    public void getValues() {
         System.out.println(S + "\n" + ans + "\n" + c);
     }
 
-    public void MaxCnt(){
-
-
+    // Оптимизированный метод для поиска максимального количества одинаковых символов
+    public void MaxCnt() {
+        // Преобразуем число S в строку
         String s = String.valueOf(S);
-        for (int i = 0; i != s.length(); i++) {
-            int c = 0;
-            for (int j = 0; j != s.length(); j++) {
-                if (s.charAt(i) == s.charAt(j)) {
-                     c++;
-                 }
-                if(this.c < c) {
-                    this.ans = String.valueOf(s.charAt(i));
-                    this.c = c;
-                }
+
+        // Используем HashMap для подсчета вхождений каждого символа
+        Map<Character, Integer> charCountMap = new HashMap<>();
+
+        // Перебираем все символы в строке
+        for (int i = 0; i < s.length(); i++) {
+            char currentChar = s.charAt(i);
+            // Если символ уже есть в карте, увеличиваем его счетчик, иначе добавляем
+            charCountMap.put(currentChar, charCountMap.getOrDefault(currentChar, 0) + 1);
+        }
+
+        // Перебираем карту и находим символ с максимальным количеством вхождений
+        for (Map.Entry<Character, Integer> entry : charCountMap.entrySet()) {
+            if (entry.getValue() > this.c) {
+                this.ans = String.valueOf(entry.getKey());
+                this.c = entry.getValue();
             }
         }
+
+        // Выводим результат
         System.out.println("Максимальное количество одинаковых символов: " + c + ", символ: " + ans);
     }
 }
