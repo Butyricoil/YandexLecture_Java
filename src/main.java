@@ -1,10 +1,13 @@
-import javax.swing.plaf.synth.SynthOptionPaneUI;
-import java.security.spec.RSAOtherPrimeInfo;
+import FirstLecture.First_Task;
 
 public class main {
 
     public static void main(String[] args) {
 
-        System.out.print("hello world");
+        First_Task task = new First_Task();
+
+        task.setValues(0000);
+        task.MaxCnt();
+
     }
 }
