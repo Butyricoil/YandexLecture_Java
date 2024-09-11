@@ -9,7 +9,7 @@ public class First_Task {
     private String ans;
     private int c;
 
-    // Метод для установки значения переменной S
+    // конструктор для установки значения переменной S
     public void setValues(int S) {
         this.S = S;
     }
