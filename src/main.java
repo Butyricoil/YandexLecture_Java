@@ -24,9 +24,8 @@ public class main {
         Second_Task processor = new Second_Task();
         List<Integer> seq = processor.processInput(input);
 
-
         if (seq == null || seq.isEmpty()) {
-            System.out.println("No numbers entered or all are the same");
+            System.out.println("No numbers entered");
         }
         else {
             int seqsum = seq.get(0);
