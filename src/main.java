@@ -11,18 +11,17 @@ public class main {
           Scanner sc = new Scanner(System.in);
 
 
-//        First_Task task = new First_Task();
-//
-//        System.out.println("imut number");
-//        int number = sc.nextInt();
-//        task.setValues(number);
-//        task.MaxCnt();
+////        First Task starts
+//         System.out.println("imput number");
+//         new First_Task(new Scanner(System.in).nextInt()).MaxCnt();
+////        First Task end
+
+        //Second Task start
         System.out.println("Enter numbers separated by spaces:");
         String input = sc.nextLine();
 
         // Создаем объект класса InputProcessor и обрабатываем ввод
         Second_Task processor = new Second_Task();
-
         List<Integer> seq = processor.processInput(input);
 
 
@@ -36,5 +35,6 @@ public class main {
             }
             System.out.println("Sum of sequence elements: " + seqsum);
         }
+        //Second Task end
     }
 }
