@@ -9,11 +9,9 @@ public class Max {
             System.out.println("No numbers entered");
         else {
             int max = seq.get(0);
-            for (int i = 1; i < seq.size(); i++) {
+            for (int i = 1; i < seq.size(); i++)
                 if (seq.get(i) > max)
                     max = seq.get(i);
-
-            }
             System.out.println("maximum number is "+ max);
         }
     }
