@@ -2,7 +2,7 @@ package FirstLecture;
 import java.util.HashMap;
 import java.util.Map;
 
-public class First_Task {
+public class SameSymb {
 
     // Объявляем переменные экземпляра
     private int S;
@@ -10,7 +10,7 @@ public class First_Task {
     private int c;
 
     // конструктор для установки значения переменной S
-    public void setValues(int S) {
+    public  SameSymb(int S) {
         this.S = S;
     }
 
@@ -43,6 +43,6 @@ public class First_Task {
         }
 
         // Выводим результат
-        System.out.println("Максимальное количество одинаковых символов: " + c + ", символ: " + ans);
+        System.out.println("maximum of the same symbols" + c + ", symbol: " + ans);
     }
 }

@@ -1,10 +1,10 @@
 package FirstLecture;
 
 import java.util.List;
+// сумма последоватльности
+public class Sum {
 
-public class Second_Task_1 {
-
-    public Second_Task_1(List<Integer> seq) {
+    public Sum(List<Integer> seq) {
         if (seq == null || seq.isEmpty())
             System.out.println("No numbers entered");
         else {

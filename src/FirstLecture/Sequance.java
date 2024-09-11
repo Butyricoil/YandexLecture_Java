@@ -4,7 +4,7 @@ import java.util.List;
 
 // Второе задание создает последовательность из строки с пробелами
 
-public class Second_Task {
+public class Sequance {
 
     public List<Integer> processInput(String input) {
         if (input == null || input.trim().isEmpty()) {
