@@ -4,7 +4,7 @@ import java.util.List;
 
 
 
-public class Sequance {
+public class Sequence {
 
 
     public List<Integer> processInput(String input) {
