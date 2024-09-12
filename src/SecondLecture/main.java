@@ -14,6 +14,7 @@ public class main {
 //        System.out.println(seq);
 //        //first task ends
 
+
 //        //second task start
 //        System.out.println("Enter numbers separated by spaces:");
 //        List<Integer> seq2 = new Sequance().processInput(new Scanner(System.in).nextLine());
@@ -21,5 +22,14 @@ public class main {
 //        new FindLastPositive (seq2, new Scanner(System.in).nextInt());
 //        System.out.println(seq2);
 //        //second task end
+
+
+//        //third task start
+//        System.out.println("Enter numbers separated by spaces:");
+//        List<Integer> seq3 = new Sequance().processInput(new Scanner(System.in).nextLine());
+//        System.out.println("input first positive number");
+//        new FindMaxInSubsequence(seq3);
+//        System.out.println(seq3);
+//        //third task end
     }
 }
