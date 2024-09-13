@@ -39,11 +39,11 @@ public class main {
         new FindSecMaxInSeq(seq4);
         //fourth task end*/
 
-        //third task start
+        //fived task start
         System.out.println("Enter numbers separated by spaces:");
         List<Integer> seq5 = new Sequence().processInput(new Scanner(System.in).nextLine());
         new FindMinEvenInSeq(seq5);
         System.out.println("Maximum Even in sequence: " + (seq5));
-        //third task end*/
+        //fived task end*/
     }
 }
