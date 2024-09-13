@@ -32,5 +32,11 @@ public class main {
         new FindMaxInSubsequence(seq3);
         System.out.println("Maximum in sequence: " + (seq3));
         //third task end*/
+
+        //fourth task start
+        System.out.println("Enter numbers separated by spaces:");
+        List<Integer> seq4 = new Sequence().processInput(new Scanner(System.in).nextLine());;
+        new FindSecMaxInSeq(seq4);
+        //fourth task end
     }
 }
