@@ -1,6 +1,7 @@
 package FirstLecture;
 
 import java.util.List;
+
 // сумма последоватльности
 public class Sum {
 

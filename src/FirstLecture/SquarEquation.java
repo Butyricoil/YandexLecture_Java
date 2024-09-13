@@ -31,7 +31,7 @@ public class SquarEquation {
             System.out.println(root);
         } else if (c != 0)
             System.out.println("there is no solution");
-          else
+        else
             System.out.println("infinite numbers of solutions");
     }
 }

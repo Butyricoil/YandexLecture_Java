@@ -1,4 +1,5 @@
 package SecondLecture;
+
 import java.util.List;
 
 /* дана последовательность длинною N

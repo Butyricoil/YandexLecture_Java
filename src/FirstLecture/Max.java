@@ -12,7 +12,7 @@ public class Max {
             for (int i = 1; i < seq.size(); i++)
                 if (seq.get(i) > max)
                     max = seq.get(i);
-            System.out.println("maximum number is "+ max);
+            System.out.println("maximum number is " + max);
         }
     }
 }

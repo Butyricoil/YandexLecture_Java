@@ -1,4 +1,5 @@
 package FirstLecture;
+
 import java.util.HashMap;
 import java.util.Map;
 
@@ -10,7 +11,7 @@ public class SameSymb {
     private int c;
 
     // конструктор для установки значения переменной S
-    public  SameSymb(int S) {
+    public SameSymb(int S) {
         this.S = S;
     }
 

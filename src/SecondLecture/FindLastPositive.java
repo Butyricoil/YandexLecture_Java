@@ -5,7 +5,7 @@ import java.util.List;
 // находит первое вхождение справа
 public class FindLastPositive {
 
-//    public FindLastPositive(List<Integer> seq, int x) {
+    //    public FindLastPositive(List<Integer> seq, int x) {
 //        if (sequance.isEmpty() || sequance == null)
 //            System.out.println("Sequance is empty");
 //        else {
@@ -16,7 +16,7 @@ public class FindLastPositive {
 //            System.out.println(ans);
 //        }
 //    }
-    public  FindLastPositive (List<Integer> sequance, int x ) {
+    public FindLastPositive(List<Integer> sequance, int x) {
         if (sequance.isEmpty())
             System.out.println("Sequance is empty");
         else {
