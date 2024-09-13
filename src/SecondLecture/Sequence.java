@@ -8,13 +8,14 @@ public class Sequence {
 
 
     public List<Integer> processInput(String input) {
-        if (input == null || input.isEmpty()) {
-            System.out.println("Sequence is empty");
-            return null;
+        List<Integer> result = new ArrayList<>();
+
+        if (input == null || input.trim().isEmpty()) {
+            System.out.println("Empty input. Please provide a valid sequence of numbers.");
+            return result;
         } else {
-            String[] inputArray = input.split(" ");
-            List<Integer> result = new ArrayList<>();
-            for (String s : inputArray)
+            String[] inputArray = input.split("\\s+");
+           for (String s : inputArray)
                 result.add(Integer.parseInt(s));
             return result;
         }
