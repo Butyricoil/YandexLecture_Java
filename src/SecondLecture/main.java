@@ -45,5 +45,11 @@ public class main {
         new FindMinEvenInSeq(seq5);
         System.out.println("Maximum Even in sequence: " + (seq5));*/
         //fived task end*/
+
+        //sixth task start
+        System.out.println("Enter words separated by spaces:");
+        List<String> wrd = new Words().WordsAdd(new Scanner(System.in).nextLine());
+        System.out.println(wrd);
+        //sixth task end*/
     }
 }
