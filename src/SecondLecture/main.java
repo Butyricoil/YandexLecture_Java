@@ -33,10 +33,17 @@ public class main {
         System.out.println("Maximum in sequence: " + (seq3));
         //third task end*/
 
-        //fourth task start
+       /* //fourth task start
         System.out.println("Enter numbers separated by spaces:");
         List<Integer> seq4 = new Sequence().processInput(new Scanner(System.in).nextLine());;
         new FindSecMaxInSeq(seq4);
-        //fourth task end
+        //fourth task end*/
+
+        //third task start
+        System.out.println("Enter numbers separated by spaces:");
+        List<Integer> seq5 = new Sequence().processInput(new Scanner(System.in).nextLine());
+        new FindMinEvenInSeq(seq5);
+        System.out.println("Maximum Even in sequence: " + (seq5));
+        //third task end*/
     }
 }
