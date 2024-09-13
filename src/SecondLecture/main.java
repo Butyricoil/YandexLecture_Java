@@ -50,6 +50,8 @@ public class main {
         System.out.println("Enter words separated by spaces:");
         List<String> wrd = new Words().WordsAdd(new Scanner(System.in).nextLine());
         System.out.println(wrd);
+        System.out.println("Shortest word: ");
+        new ShortWords(wrd);
         //sixth task end*/
     }
 }
