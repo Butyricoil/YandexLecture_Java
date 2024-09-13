@@ -1,5 +1,6 @@
 package SecondLecture;
 
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
@@ -47,11 +48,22 @@ public class main {
         //fived task end*/
 
         //sixth task start
-        System.out.println("Enter words separated by spaces:");
+        /*System.out.println("Enter words separated by spaces:");
         List<String> wrd = new Words().WordsAdd(new Scanner(System.in).nextLine());
         System.out.println(wrd);
         System.out.println("Shortest word: ");
-        new ShortWords(wrd);
+        new ShortWords(wrd);*/
         //sixth task end*/
+
+        //seventh task start
+//        System.out.println("Enter word:");
+//        String wrd2 = new Scanner(System.in).nextLine();
+//        System.out.println("RLE words: ");
+//        new RLE_demo(wrd2);
+
+        System.out.println("Enter word:");
+        String wrd2 = new Scanner(System.in).nextLine();
+        System.out.println("RLE words: ");
+        new RLE(wrd2);
     }
 }
