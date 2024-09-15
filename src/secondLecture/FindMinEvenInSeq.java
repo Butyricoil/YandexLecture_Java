@@ -1,7 +1,7 @@
 /*дана последовательность чисел длиной N
 найти минимальное четное число в последовательности
 или вывести -1 если такого нету*/
-package SecondLecture;
+package secondLecture;
 
 import java.util.List;
 

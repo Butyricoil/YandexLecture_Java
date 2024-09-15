@@ -1,8 +1,4 @@
-package SecondLecture;
-
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Scanner;
+package secondLecture;
 
 public class main {
 
@@ -61,9 +57,9 @@ public class main {
 //        System.out.println("RLE words: ");
 //        new RLE_demo(wrd2);
 
-        System.out.println("Enter word:");
-        String wrd2 = new Scanner(System.in).nextLine();
-        System.out.println("RLE words: ");
-        new RLE(wrd2);
+//        System.out.println("Enter word:");
+//        String wrd2 = new Scanner(System.in).nextLine();
+//        System.out.println("RLE words: ");
+//        new RLE(wrd2);
     }
 }

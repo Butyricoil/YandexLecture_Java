@@ -1,4 +1,4 @@
-package SecondLecture;
+package secondLecture;
 
 import java.util.List;
 

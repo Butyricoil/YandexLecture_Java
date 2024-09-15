@@ -1,7 +1,4 @@
-package SecondLecture;
-
-import java.util.ArrayList;
-import java.util.List;
+package secondLecture;
 
 // написать хотябы ABCD...
 public class RLE_demo {

@@ -16,7 +16,7 @@
  * - Если символ встречается один раз, он остаётся без изменений.
  */
 
-package SecondLecture;
+package secondLecture;
 
 public class RLE {
     private String encodedString;

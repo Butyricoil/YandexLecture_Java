@@ -1,4 +1,4 @@
-package FirstLecture;
+package firstLecture;
 
 import java.util.ArrayList;
 import java.util.List;

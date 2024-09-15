@@ -1,4 +1,4 @@
-package FirstLecture;
+package firstLecture;
 
 public class SquarEquation {
     private int a, b, c;
