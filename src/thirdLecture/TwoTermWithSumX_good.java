@@ -10,13 +10,15 @@ import java.util.HashSet;
  */
 public class TwoTermWithSumX_good {
 
-    public TwoTermWithSumX_good(ArrayList<Integer> nums, int x) {
+    public void sum (ArrayList<Integer> nums, int x) {
         HashSet<Integer> prevNums = new HashSet<Integer>();
-        System.out.println("Two numbers are: " + 0 + 0);
         for (int nowNum : nums) {
-            if (prevNums.contains(x - nowNum))
+            if (prevNums.contains(x - nowNum)) {
                 System.out.println("Two numbers are: " + (x - nowNum) + ", " + nowNum);
+                break;
+            }
             prevNums.add(nowNum);
         }
+        System.out.println("Two numbers are: " + 0 + 0);
     }
 }

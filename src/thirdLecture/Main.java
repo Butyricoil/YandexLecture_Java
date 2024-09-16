@@ -5,7 +5,7 @@ import java.util.ArrayList;
 public class Main {
 
     public static void main(String[] args) {
-        TwoTermWithSumX_bad obj = new TwoTermWithSumX_bad();
+        TwoTermWithSumX_good obj = new TwoTermWithSumX_good();
         ArrayList<Integer> nums = new ArrayList<>();
         nums.add(1);
         nums.add(2);
