@@ -28,9 +28,12 @@ public class Rook {
 
     }
 
-    public void addRook(Map<Integer, Integer> roworcol, int key) {
-    roworcol.put(key, roworcol.getOrDefault(key, 0) + 1);
-}
+    public void addRook(Map<Integer, Integer> rowOrCol, int key) {
+        if (!rowOrCol.containsKey(key))
+            rowOrCol.put(key, 0);
+        rowOrCol.put(key, rowOrCol.get(key) + 1);
+    }
+
 
     public int countPairs(Map<Integer, Integer> roworcol) {
         int pairs = 0;
@@ -40,6 +43,4 @@ public class Rook {
         }
         return pairs;
     }
-
-
 }
