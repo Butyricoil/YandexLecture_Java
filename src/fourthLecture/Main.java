@@ -2,13 +2,19 @@ package fourthLecture;
 
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.List;
 
 public class Main {
 
     public static void main(String[] args) {
-        List<Integer> A = new ArrayList<>(List.of(1, 3, 4, 6, 9));
-        List<Integer> sortedA = SortByCount.sortByCount(A);
-        System.out.println(sortedA);
+        // Пример использования
+        ArrayList<int[]> rookCoords = new ArrayList<>();
+        rookCoords.add(new int[]{1, 2});
+        rookCoords.add(new int[]{2, 2});
+        rookCoords.add(new int[]{1, 3});
+        rookCoords.add(new int[]{4, 5});
+
+        Rook rookProblem = new Rook();
+        int result = rookProblem.countBeatingRooks(rookCoords);
+        System.out.println("Количество пар: " + result);
     }
 }
